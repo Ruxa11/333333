@@ -1,0 +1,11 @@
+const car = 'nissan'
+const color = 'blue'
+const old = 5
+const insurance = true
+
+const CarInfo = (q, y, z) => {
+  return {car: q, color: y, old: z}
+}
+
+
+display.log(CarInfo(car, color, old, ))
